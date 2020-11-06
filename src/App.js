@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import Weapons from './components/Weapons/Weapons';
 import Armor from './components/Armor/Armor';
@@ -6,8 +5,7 @@ import {AppBar, Tab, Tabs} from "@material-ui/core";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 
@@ -17,9 +15,9 @@ function App() {
       <div className="App">
       <AppBar position="static">
         <Tabs 
-          centered
           indicatorColor="danger"
         >
+          <Tab disabled label="Monster Hunter World Data"/>
           <Tab href="/armor" label="Armor"/>
           <Tab href="/weapons" label="Weapons"/>
         </Tabs>
