@@ -44,7 +44,7 @@ export default function Weapons() {
                     title="Weapon"
                 />
             </Card>
-            <Button style={{ marginTop: 30 }} variant="contained" color="secondary" onClick={() => setRandNum(getRandomNum(weapons.length))}>
+            <Button style={{ marginTop: 30 }} variant="contained" color="primary" onClick={() => setRandNum(getRandomNum(weapons.length))}>
                 Random Weapon
             </Button>
         </div>
