@@ -1,5 +1,6 @@
 # Getting Started with Create React App
 
+This is my final project for my Web Programming class. It just displays data using a Monster Hunter World API (https://docs.mhw-db.com/)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
